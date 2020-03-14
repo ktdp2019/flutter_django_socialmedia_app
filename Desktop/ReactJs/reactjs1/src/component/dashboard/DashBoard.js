@@ -4,7 +4,9 @@ import React, { Component } from "react";
 class DashBoard extends Component {
     render() {
         return (
-            <div></div>
+            <div>{this.props.name}</div>
         )
     }
 }
+
+export default DashBoard;
