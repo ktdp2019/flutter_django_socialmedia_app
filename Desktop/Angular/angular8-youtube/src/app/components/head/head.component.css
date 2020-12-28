@@ -1,0 +1,27 @@
+.HeadStyle {
+    display: flex;
+    background-color: #edffaa;
+    justify-content: space-between;
+}
+
+.HeadTitleStyle {
+    padding: 10px 15px;
+}
+
+.HeadTitleStyle:hover {
+    background-color: darkseagreen;
+}
+
+.HeadItemStyle {
+    display: flex;
+}
+
+.HeadItemStyle > div {
+    padding: 10px 15px;
+}
+
+.HeadItemStyle > div:hover {
+    background-color: darkseagreen;
+}
+
+

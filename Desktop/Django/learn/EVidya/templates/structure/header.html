@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Home</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="justify-content-between collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+                <a class="nav-link" href="#">link1</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+                <a class="btn btn-link text-decoration-none" href="{% url 'account:login' %}">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>

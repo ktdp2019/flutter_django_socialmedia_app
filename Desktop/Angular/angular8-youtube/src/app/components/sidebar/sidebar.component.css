@@ -1,0 +1,14 @@
+.SidebarStyle {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.SidebarStyle > div {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.SidebarStyle > div:hover {
+    background-color: darkseagreen;
+}

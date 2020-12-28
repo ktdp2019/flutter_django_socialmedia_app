@@ -1,0 +1,22 @@
+.FrontendStyle {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.FrontendStyle > div:nth-child(2) {
+  flex: 1;
+  display: flex;
+}
+
+.FrontendStyle > div:nth-child(2) > div:first-child {
+  flex: 0 0 200px;
+  background-color: red;
+}
+
+.FrontendStyle > div:nth-child(2) > div:last-child {
+  flex: 1
+}
+
+
+
